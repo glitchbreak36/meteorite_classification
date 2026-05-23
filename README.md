@@ -1,4 +1,5 @@
 Machine Learning Based Meteorite Classification Using Geochemical Features
+Developed by M. Pranav Teja, 2026
 
 This project aims at using machine learning to classify metoerites into one of 6 classes (H, L, LL, Carbonaceous, Entatite and Achondrite), based on the inputs of feature values that a user gives. The user can choose the features
 the want to give as an input and then just enter the values of those features within the valid range.
