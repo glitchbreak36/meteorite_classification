@@ -9,5 +9,5 @@ and 35 fundamental geochemical features, spanning oxides, rare earth elements, n
 other features were filled using class-wise mean imputation, ultimately giving rise to 35 fundamental geochemical features. 29 more derived features were added, which include ratios, averages, etc. So the dataset 
 that ended up being used by the model had 245 samples and 64 features in total.
 
-The model used was a Random Forest model. This model was chosen in particular because meteorite geochemical data usually contains outliers, and RF is not heavily affected by them. It also doesn't require feature scaling/normalisation. Also, this model can identify non-linear patterns among features, and the 6 meteorite classes can't be expected to be linearly separable. It also identifies which features most significantly contributed to differentiate between classes.
+The model used was a Random Forest model. This model was chosen in particular because meteorite geochemical data usually contains outliers, and RF is not heavily affected by them. It also doesn't require feature scaling/normalisation. It also identifies which features most significantly contributed to differentiate between classes.
 
